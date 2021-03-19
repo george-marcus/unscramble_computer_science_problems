@@ -9,15 +9,16 @@ Analysis: Two lists (calls and texts) are looped through once each. O(2n) -> O(n
 
 
 3. Task2.py
-Worst Case Big-O Notation: O(n)
-Analysis: List is (calls) looped through once. O(2n) -> O(n)
+Worst Case Big-O Notation: O(n + m)
+Analysis: List is (calls) looped through once then max of the phone call duration is returned. O(n + m) -> O(n)
 
 
 4. Task3.py
-Worst Case Big-O Notation: O(n + nlogn) 
-Analysis: List is looped through once for filter and after filtered and then sorted O(n + nlogn)-> O(nlogn)
+Worst Case Big-O Notation: O(n + m + nlogn) 
+Analysis: List is looped through once for filter then looped to get codes_dict
+    then sorted codes_dict is returned O(n + m + nlogn)-> O(nlogn)
 
 
 5. Task4.py
-(Worst Case Big-O Notation: O(n + nlogn)
-Analysis: Two lists are looped through once and then combined in sorted set O(n + nlogn) -> O(nlogn)
+(Worst Case Big-O Notation: O(n + m + nlogn)
+Analysis: Two lists are looped through once and then combined in sorted set O(n + m + nlogn) -> O(nlogn)
