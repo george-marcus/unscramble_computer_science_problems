@@ -1,0 +1,23 @@
+1. Task0.py 
+Worst Case Big-O Notation: O(1)
+Analysis: No matter how big the list is, first and last records can be fetched in constant time
+
+
+2. Task1.py
+Worst Case Big-O Notation: O(n)
+Analysis: Two lists (calls and texts) are looped through once each. O(2n) -> O(n)
+
+
+3. Task2.py
+Worst Case Big-O Notation: O(n)
+Analysis: List is (calls) looped through once
+
+
+4. Task3.py
+Worst Case Big-O Notation: O(n + nlogn)
+Analysis: List is looped through once for filter and after filtered and then sorted
+
+
+5. Task4.py
+(Worst Case Big-O Notation: O(n + nlogn)
+Analysis: Two lists are looped through once and then combined in sorted set
