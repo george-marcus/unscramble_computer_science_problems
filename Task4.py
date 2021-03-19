@@ -46,5 +46,8 @@ for text in texts:
 lexographically_sorted_telemarketers_numbers = sorted(
     possible_telemarketer_phone_numbers.difference(other_phone_numbers))
 
-print('These numbers could be telemarketers: ',
-      *lexographically_sorted_telemarketers_numbers)
+
+print('These numbers could be telemarketers: ')
+
+for phone_number in lexographically_sorted_telemarketers_numbers:
+    print(phone_number)
