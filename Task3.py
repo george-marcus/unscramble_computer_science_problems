@@ -118,9 +118,9 @@ for code in lexographically_sorted_codes:
 
 # Part B
 
-fixed_lines_call_duration = codes_dict['080']
+fixed_lines_call_count = codes_dict['080']
 
-duration_of_all_lines_calls = reduce(
+count_of_all_lines_calls = reduce(
     lambda acc, value: acc + value, codes_dict.values(), 0)
 
 percent_of_calls = round(fixed_lines_call_duration *
